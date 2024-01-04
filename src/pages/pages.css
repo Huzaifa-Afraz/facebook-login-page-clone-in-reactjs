@@ -1,0 +1,30 @@
+.loginPage{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    gap:100px;
+    /* margin: 20px; */
+}
+
+.loginPage .logo__text img{
+width: 250px;
+}
+.loginPage .logo__text h2{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: normal;
+    width: 500px;
+    margin-left: 1.5rem;
+}
+@media screen and (max-width:776px) {
+    .loginPage{
+    gap:10px;
+    }
+
+    .loginPage .logo__text h2{
+        width: 90%;
+    }
+}
